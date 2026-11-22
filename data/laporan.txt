@@ -19,3 +19,12 @@ Data inventaris masih kosong.
 [BARANG MASUK] Kode: 003 | Nama: Air Mineral  | Jumlah: 1
 [BARANG KELUAR] Kode: 003 | Nama: Air Mineral  | Jumlah: 1
 [BARANG KELUAR] Kode: 003 | Nama: Air Mineral  | Jumlah: 1
+[BARANG MASUK] Kode: 1 | Nama: tas | Jumlah: 3
+
+========================================
+       REKAP STOK INVENTARIS TERKINI    
+========================================
+1. [001] Kertas A4 | Stok: 8 | Harga: 1000.00
+2. [1] tas | Stok: 3 | Harga: 100000.00
+========================================
+
