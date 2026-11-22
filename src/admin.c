@@ -176,6 +176,7 @@ void jalankanAdmin(void) {
             }
 
             if (ditemukan != -1) {
+               catatLogLaporan(FILE_LAPORAN, "HAPUS BARANG", daftar[ditemukan].kode, daftar[ditemukan].nama, daftar[ditemukan].stok);
                 for (int i = ditemukan; i < jumlah - 1; i++) {
                     daftar[i] = daftar[i + 1];
                 }
@@ -189,6 +190,9 @@ void jalankanAdmin(void) {
         } else if (pilihan == 5) {
             tulisLaporanStok(FILE_LAPORAN, daftar, jumlah);
             printf("Rekap stok berhasil ditambahkan ke %s\n", FILE_LAPORAN);
+        } else if (pilihan != 6) {
+            printf("Pilihan tidak tersedia! Masukkan angka 1 sampai 6.\n");
         }
     } while (pilihan != 6);
+    printf("Keluar dari menu admin. Terima kasih!\n");
 }
