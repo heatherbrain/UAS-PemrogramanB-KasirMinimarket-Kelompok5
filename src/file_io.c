@@ -1,7 +1,12 @@
 #include <stdio.h>
+#include "../include/struct.h"
 #include "../include/file_io.h"
 
 void simpanBarangKeBinary(const char *filename, Barang *daftar_barang, int jumlah) {
+    if (daftar_barang == NULL || jumlah < 0) {
+        printf("Data barang tidak valid untuk disimpan!\n");
+        return;
+    }
     FILE *file = fopen(filename, "wb");
     if (file == NULL) {
         printf("Gagal membuka file untuk menyimpan data!\n");
