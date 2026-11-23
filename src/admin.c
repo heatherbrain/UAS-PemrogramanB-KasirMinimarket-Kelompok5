@@ -47,9 +47,9 @@ void jalankanAdmin(void) {
                 continue;
             }
 
-            char kode_baru[20];
+            char kode_baru[MAX_KODE];
             printf("Masukkan Kode Barang: ");
-            scanf("%19s", kode_baru);
+            scanf("%9s", kode_baru);
 
             // Cek seluruh array dari indeks 0 sampai jumlah - 1
             int duplikat = 0;

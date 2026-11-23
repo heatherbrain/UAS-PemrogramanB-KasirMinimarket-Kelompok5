@@ -19,3 +19,46 @@ Data inventaris masih kosong.
 [BARANG MASUK] Kode: 003 | Nama: Air Mineral  | Jumlah: 1
 [BARANG KELUAR] Kode: 003 | Nama: Air Mineral  | Jumlah: 1
 [BARANG KELUAR] Kode: 003 | Nama: Air Mineral  | Jumlah: 1
+[BARANG MASUK] Kode: 006 | Nama: Sticky Notes | Jumlah: 8
+
+========================================
+       REKAP STOK INVENTARIS TERKINI    
+========================================
+1. [005] Kalkulator | Stok: 2059255791 | Harga: 0.00
+2. [006] Sticky Notes | Stok: 8 | Harga: 8000.00
+========================================
+
+[BARANG KELUAR] Kode: 4 | Nama: Kalkulator | Jumlah: 2059255787
+
+========================================
+       REKAP STOK INVENTARIS TERKINI    
+========================================
+1. [4] Kalkulator | Stok: 4 | Harga: 65000.00
+2. [006] Sticky Notes | Stok: 8 | Harga: 8000.00
+========================================
+
+[HAPUS BARANG] Kode: 4 | Nama: Kalkulator | Jumlah: 4
+
+========================================
+       REKAP STOK INVENTARIS TERKINI    
+========================================
+1. [006] Sticky Notes | Stok: 8 | Harga: 8000.00
+========================================
+
+[BARANG MASUK] Kode: 005 | Nama: Spidol | Jumlah: 12
+
+========================================
+       REKAP STOK INVENTARIS TERKINI    
+========================================
+1. [006] Sticky Notes | Stok: 8 | Harga: 8000.00
+2. [005] Spidol | Stok: 12 | Harga: 8000.00
+========================================
+
+
+========================================
+       REKAP STOK INVENTARIS TERKINI    
+========================================
+1. [006] Sticky Notes | Stok: 8 | Harga: 8000.00
+2. [005] Spidol | Stok: 12 | Harga: 8000.00
+========================================
+

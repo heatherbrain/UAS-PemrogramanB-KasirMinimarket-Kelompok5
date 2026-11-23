@@ -1,7 +1,9 @@
 #include <stdio.h>
 #include <string.h>
+#include "../include/struct.h"
+#include "../include/file_io.h"
 #include "../include/admin.h"
-#include "../include/kasir.h"
+#include "../include/fitur.h"
 
 int main(int argc, char *argv[]) {
     if (argc < 2) {
@@ -19,7 +21,7 @@ int main(int argc, char *argv[]) {
     } else {
         printf("Argumen tidak dikenal: %s\n", argv[1]);
         printf("Gunakan --admin atau --kasir.\n");
+        return 1;
     }
-
     return 0;
 }
