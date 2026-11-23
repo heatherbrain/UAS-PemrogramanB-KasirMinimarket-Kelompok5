@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include <string.h>
-#include "../include/admin.h"
-#include "../include/kasir.h"
+#include "../include/main.h"
 
 int main(int argc, char *argv[]) {
     if (argc < 2) {

@@ -1,8 +1,6 @@
 #include <stdio.h>
 #include <string.h>
-#include "../include/struct.h"
-#include "../include/file_io.h"
-#include "../include/admin.h"
+#include "../include/main.h"
 
 #define FILE_DB "data/inventaris.bin"
 #define FILE_LAPORAN "data/laporan.txt"

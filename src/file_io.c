@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "../include/file_io.h"
+#include "../include/main.h"
 
 void simpanBarangKeBinary(const char *filename, Barang *daftar_barang, int jumlah) {
     FILE *file = fopen(filename, "wb");

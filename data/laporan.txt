@@ -19,3 +19,15 @@ Data inventaris masih kosong.
 [BARANG MASUK] Kode: 003 | Nama: Air Mineral  | Jumlah: 1
 [BARANG KELUAR] Kode: 003 | Nama: Air Mineral  | Jumlah: 1
 [BARANG KELUAR] Kode: 003 | Nama: Air Mineral  | Jumlah: 1
+[BARANG KELUAR] Kode: 001 | Nama: Pulpen  | Jumlah: 2
+[BARANG MASUK] Kode: 004 | Nama: Kertas A4 | Jumlah: 56
+
+========================================
+       REKAP STOK INVENTARIS TERKINI    
+========================================
+1. [001] Pulpen  | Stok: 20 | Harga: 3000.00
+2. [002] Pensil | Stok: 16 | Harga: 2000.00
+3. [003] Air Mineral  | Stok: 5 | Harga: 4000.00
+4. [004] Kertas A4 | Stok: 56 | Harga: 500.00
+========================================
+
